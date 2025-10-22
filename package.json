@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "lint": "next lint",
-  "start": "node ./node_modules/next/dist/bin/next start"
-
+    "start": "node node_modules/next/dist/bin/next start"
   },
   "dependencies": {
     "lucide-react": "^0.525.0",
