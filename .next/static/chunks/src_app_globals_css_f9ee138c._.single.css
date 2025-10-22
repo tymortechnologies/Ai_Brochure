@@ -233,10 +233,6 @@
     margin-top: calc(var(--spacing) * 6);
   }
 
-  .contents {
-    display: contents;
-  }
-
   .flex {
     display: flex;
   }
