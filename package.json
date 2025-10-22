@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "postinstall": "next build",
+    "postinstall": "npm run build",
     "lint": "next lint",
-    "start": "node node_modules/next/dist/bin/next start"
+    "start": "next start"
   },
   "dependencies": {
     "lucide-react": "^0.539.0",
