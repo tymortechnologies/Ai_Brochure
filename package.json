@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "postinstall": "next build",
     "lint": "next lint",
     "start": "node node_modules/next/dist/bin/next start"
   },
