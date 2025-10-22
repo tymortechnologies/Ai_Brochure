@@ -7,7 +7,7 @@
     "build": "next build",
     "postinstall": "npm run build",
     "lint": "next lint",
-    "start": "next start"
+    "start": "node node_modules/next/dist/bin/next start"
   },
   "dependencies": {
     "lucide-react": "^0.539.0",
